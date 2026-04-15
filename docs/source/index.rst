@@ -1,54 +1,64 @@
 Kinesis Lab
 ===========
 
-The Kinesis Lab is a shared multi-space laboratory for design, exploration, and experimentation using robotics, artificial intelligence, and automation technologies.
+.. raw:: html
 
-This cutting-edge laboratory is equipped with state-of-the-art systems, including:
+   <div class="grid">
+     <a href="kinesis.html" class="card">
+       <h3>Arena & Workspace</h3>
+       <p>Explore the physical spaces and facilities of the lab.</p>
+     </a>
 
-- Ground robots (humanoids, quadrupeds, wheeled)
-- Underwater Remotely Operated Vehicles (ROVs)
-- Drones and robotic arms
-- Motion capture systems
-- Advanced sensors and payloads
+     <a href="equipment.html" class="card">
+       <h3>Equipment</h3>
+       <p>Robots, drones, sensors, and advanced systems.</p>
+     </a>
 
-The lab fosters multidisciplinary innovation, enabling researchers to push the boundaries of robotics, AI, and automation.
+     <a href="research.html" class="card">
+       <h3>Research</h3>
+       <p>Applications in AI, robotics, and perception.</p>
+     </a>
 
----
+     <a href="facilities.html" class="card">
+       <h3>Facilities</h3>
+       <p>Detailed breakdown of Arena and Workspace capabilities.</p>
+     </a>
+   </div>
+
 
 Arena
 -----
 
 The Arena is a dedicated space for motion experimentation.
 
-**Specifications:**
+**Specifications**
 
 - Size: 17m × 6.4m × 8m
 - Adaptable truss structure with safety nets
 - Adjustable lighting (color and intensity)
 - Protective floor mattresses
 
-**Equipped with:**
+**Equipped with**
 
 - High-accuracy position tracking system
 - 2 kW sound system
 - Projection system
 - High-speed ethernet and wireless network
 
-**Use cases:**
+**Use cases**
 
 - Indoor flight testing
 - Mobile manipulation
 - Multi-robot experiments
 - Biomechanics and motion studies
 
----
 
 Workspace
 ---------
 
 The Workspace is a flexible environment for development and experimentation.
 
-**Features:**
+**Features**
 
 - Workstations for coding and data processing
 - High-speed local network
@@ -57,10 +67,9 @@ The Workspace is a flexible environment for development and experimentation.
 - GPU unit for high-performance computation
 - Safe charging station for LiPo batteries
 
----
 
-Equipment
----------
+Equipment Overview
+------------------
 
 The lab supports motion-centric research with a comprehensive toolkit.
 
@@ -89,7 +98,6 @@ The lab supports motion-centric research with a comprehensive toolkit.
 - Mesh radio networks
 - Bench testing equipment
 
----
 
 Applications and Research
 -------------------------
@@ -147,59 +155,17 @@ Applications and Research
 - Film production (character and motion animation)
 - Sound and motion research
 
----
-
-Equipment List
---------------
-
-**Robotics**
-
-- Boston Dynamics Spot (with and without arm)
-- Unitree H1 and G1 humanoids
-- Robotnik RB-CAR autonomous platform
-- KUKA LBR iiwa robotic arm
-- Inspire Robots dexterous hand
-- Robotiq 3-finger gripper
-
-**Drones**
-
-- DJI Mavic Pro 2
-- Matrice 300 RTK
-
-**Underwater**
-
-- VideoRay Mission Specialist Defender
-- Hydromea EXRAY
-
-**Sensors & Imaging**
-
-- Vicon Vantage V16 motion capture
-- Faro Focus 350s scanner
-- Hovermap LiDAR
-- Creaform GO!SCAN 3D
-- Corning microHSI hyperspectral camera
-- Prophesee event camera
-- Fluke acoustic imager
-- Workswell thermal camera
-
-**Networking & Power**
-
-- Persistent Systems MPU5 radios
-- B&K Precision power supply
-
----
 
 Contact
 -------
 
 © 2025 New York University Abu Dhabi
 
+
 .. toctree::
-   :maxdepth: 2
+   :hidden:
 
-   
-   usage
-   api
-
-
-Lumache hosts its documentation on Read the Docs.
+   kinesis
+   equipment
+   research
+   facilities
