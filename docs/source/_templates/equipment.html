@@ -1,0 +1,45 @@
+{% for item in equipment %}
+
+<div class="equip-card">
+  <div class="equip-title">
+    {{ item.name }}
+    <span class="arrow">▼</span>
+  </div>
+
+  <div class="equip-content">
+
+    {% if item.description %}
+      <p>{{ item.description }}</p>
+    {% endif %}
+
+    {% if item.specifications %}
+      <strong>Specifications</strong>
+      <ul>
+        {% for key, value in item.specifications.items() %}
+          <li><b>{{ key }}</b>: {{ value }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if item.capabilities %}
+      <strong>Capabilities</strong>
+      <ul>
+        {% for cap in item.capabilities %}
+          <li>{{ cap }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if item.safety_considerations %}
+      <strong>Safety</strong>
+      <ul>
+        {% for s in item.safety_considerations %}
+          <li>{{ s }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+  </div>
+</div>
+
+{% endfor %}

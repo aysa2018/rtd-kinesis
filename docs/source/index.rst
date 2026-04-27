@@ -3,13 +3,27 @@ Kinesis Lab
 
 .. raw:: html
 
+   <div class="hero">
+     <h1>Kinesis Lab</h1>
+     <p>Design • Robotics • AI • Automation</p>
+   </div>
+
+   <div class="intro">
+     <p>
+       The Kinesis Lab is a shared multi-space laboratory for design, exploration,
+       and experimentation using robotics, artificial intelligence, and automation technologies.
+     </p>
+   </div>
+
+
+
    <div class="grid">
      <a href="kinesis.html" class="card">
        <h3>Arena & Workspace</h3>
        <p>Explore the physical spaces and facilities of the lab.</p>
      </a>
 
-     <a href="equipment.html" class="card">
+     <a href="equipment/index.html" class="card">
        <h3>Equipment</h3>
        <p>Robots, drones, sensors, and advanced systems.</p>
      </a>
@@ -24,7 +38,6 @@ Kinesis Lab
        <p>Detailed breakdown of Arena and Workspace capabilities.</p>
      </a>
    </div>
-
 
 Arena
 -----
@@ -166,6 +179,6 @@ Contact
    :hidden:
 
    kinesis
-   equipment
+   equipment/index
    research
    facilities

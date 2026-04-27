@@ -127,3 +127,58 @@ h2 {
 .card h3, .card p {
   text-decoration: none;
 }
+
+
+/* ===== EQUIPMENT CARDS ===== */
+.equip-card {
+  background: #f8f6ff;
+  border: 1px solid #e4dcff;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/* TITLE */
+.equip-title {
+  padding: 15px 20px;
+  font-weight: 600;
+  color: #6C3BFF;
+  cursor: pointer;
+  position: relative;
+}
+
+/* ARROW */
+.arrow {
+  float: right;
+  transition: transform 0.3s ease;
+}
+
+/* CONTENT (collapsed) */
+.equip-content {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  transition: max-height 0.4s ease, padding 0.3s ease;
+}
+
+/* ===== HOVER (desktop) ===== */
+.equip-card:hover .equip-content {
+  max-height: 300px;
+  padding: 10px 20px 20px;
+}
+
+.equip-card:hover {
+  border-color: #6C3BFF;
+  background: #f0ecff;
+}
+
+/* ===== CLICK STATE ===== */
+.equip-card.open .equip-content {
+  max-height: 300px;
+  padding: 10px 20px 20px;
+}
+
+.equip-card.open .arrow {
+  transform: rotate(180deg);
+}

@@ -5,6 +5,8 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('../..'))
 
+import json
+
 project = 'Lumache'
 copyright = '2021, Graziella'
 author = 'Graziella'
@@ -46,3 +48,17 @@ html_css_files = [
 html_js_files = [
     'custom.js',
 ]
+
+
+
+def setup(app):
+    app.add_css_file('custom.css')
+    app.add_js_file('custom.js')
+
+    app.add_config_value('equipment_data', {}, 'env')
+
+    here = os.path.abspath(os.path.dirname(__file__))
+    json_path = os.path.join(here, '_static', 'data', 'equipment.json')
+
+    with open(json_path) as f:
+        app.config.equipment_data = json.load(f)
