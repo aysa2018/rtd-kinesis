@@ -2,6 +2,18 @@
 
 .. raw:: html
 
+   <nav class="top-navbar">
+     <a href="index.html" class="nav-logo">Kinesis Lab</a>
+
+     <div class="nav-links">
+       <a href="index.html">Home</a>
+       <a href="equipment/index.html">Equipment</a>
+       <a href="research.html">Research</a>
+       <a href="facilities.html">Facilities</a>
+       <a href="kinesis.html" class="nav-btn">Explore</a>
+     </div>
+   </nav>
+
    <section class="home-hero">
      <img src="_static/images/hero.jpg" alt="Kinesis Lab" class="hero-bg">
      <div class="hero-shade"></div>
