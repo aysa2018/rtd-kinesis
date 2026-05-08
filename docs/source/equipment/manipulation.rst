@@ -3,4 +3,35 @@ Manipulation Systems
 
 .. raw:: html
 
-   <div id="equipment-container"></div>
+   <nav class="top-navbar">
+     <a href="../index.html" class="nav-logo">Kinesis Lab</a>
+     <div class="nav-links">
+       <a href="../index.html">Home</a>
+       <a href="index.html">Equipment</a>
+       <a href="../research.html">Research</a>
+       <a href="../facilities.html">Facilities</a>
+       <a href="../kinesis.html" class="nav-btn">Explore</a>
+     </div>
+   </nav>
+
+   <section class="subpage-hero animated-hero manipulation-hero">
+     <div class="hero-slide slide-one"></div>
+     <div class="hero-slide slide-two"></div>
+     <div class="hero-slide slide-three"></div>
+
+     <div class="subpage-hero-content">
+       <p class="subpage-kicker">Equipment Category</p>
+       <h1>Manipulation Systems</h1>
+       <p>
+         Robotic arms, grippers, dexterous hands, and end-effectors for controlled
+         grasping and manipulation research.
+       </p>
+     </div>
+   </section>
+
+   <section class="subpage-intro">
+     <h2>Available Manipulation Systems</h2>
+     <p>Click an equipment card to view specifications, capabilities, availability notes, and safety information.</p>
+   </section>
+
+   <section id="equipment-container"></section>

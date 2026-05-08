@@ -3,6 +3,18 @@ Equipment
 
 .. raw:: html
 
+    <nav class="top-navbar">
+     <a href="../index.html" class="nav-logo">Kinesis Lab</a>
+
+     <div class="nav-links">
+       <a href="../index.html">Home</a>
+       <a href="index.html">Equipment</a>
+       <a href="../research.html">Research</a>
+       <a href="../facilities.html">Facilities</a>
+       <a href="../kinesis.html" class="nav-btn">Explore</a>
+     </div>
+   </nav>
+
    <div class="equipment-page">
 
      <section class="equipment-hero">

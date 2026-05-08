@@ -91,6 +91,8 @@ function getCurrentCategories() {
 function attachDropdowns() {
   document.querySelectorAll(".equip-card").forEach(card => {
     const title = card.querySelector(".equip-title");
+    if (!title) return;
+
     title.addEventListener("click", () => {
       card.classList.toggle("open");
     });

@@ -50,15 +50,3 @@ html_js_files = [
 ]
 
 
-
-def setup(app):
-    app.add_css_file('custom.css')
-    app.add_js_file('custom.js')
-
-    app.add_config_value('equipment_data', {}, 'env')
-
-    here = os.path.abspath(os.path.dirname(__file__))
-    json_path = os.path.join(here, '_static', 'data', 'equipment.json')
-
-    with open(json_path) as f:
-        app.config.equipment_data = json.load(f)
